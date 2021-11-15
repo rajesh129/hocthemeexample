@@ -1,0 +1,22 @@
+.login__wrapper {
+    width: 100%;
+    max-width: 500px;
+    padding: 15px;
+    margin: 0 auto;
+    background: #6fcbf6;
+    border-radius: 3px;
+
+    &.light {
+        background: #d3d2d2;
+    }
+
+    &.dark {
+        background: #131617;
+        color: #FFF;
+    }
+
+    &.dark-contrast {
+        background: #131617;
+        color: #ffec62;
+    }
+}
